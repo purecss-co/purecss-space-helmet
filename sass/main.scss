@@ -179,7 +179,7 @@ body{
   &:after{
     @include pseudo;
     top: 4.7vmin;
-    left: 4.5vmin;
+    left: 4.6vmin;
     width: 4vmin;
     height: 4vmin;
     background: $shadow-dark-color;
@@ -188,5 +188,9 @@ body{
 }
 
 .ear-right{
-  left: 40vmin;
+  left: 39.5vmin;
+
+  &:after{
+    left: 4.8vmin;
+  }
 }
